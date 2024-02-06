@@ -1,4 +1,6 @@
-### Hi there 👋
+### Computer Science at the University of Leeds
+### VR, XR, AR
+### Using technology to support the neurodivergent community
 
 <!--
 **daisymayt/daisymayt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
