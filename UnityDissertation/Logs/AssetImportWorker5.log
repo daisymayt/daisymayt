@@ -15,7 +15,7 @@ C:/Users/sc20dmt/UnityProjects/daisymayt/UnityDissertation
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-50027
+50318
 Successfully changed project path to: C:/Users/sc20dmt/UnityProjects/daisymayt/UnityDissertation
 C:/Users/sc20dmt/UnityProjects/daisymayt/UnityDissertation
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/sc20dmt/UnityProjects/daisymayt/UnityDissertation
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8792] Host "[IP] 192.168.43.56 [Port] 0 [Flags] 2 [Guid] 2454225540 [EditorId] 2454225540 [Version] 1048832 [Id] WindowsEditor(7,UOL-2DY3FY3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8548] Host "[IP] 192.168.43.56 [Port] 0 [Flags] 2 [Guid] 889978139 [EditorId] 889978139 [Version] 1048832 [Id] WindowsEditor(7,UOL-2DY3FY3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8792] Host "[IP] 192.168.43.56 [Port] 0 [Flags] 2 [Guid] 2454225540 [EditorId] 2454225540 [Version] 1048832 [Id] WindowsEditor(7,UOL-2DY3FY3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8548] Host "[IP] 192.168.43.56 [Port] 0 [Flags] 2 [Guid] 889978139 [EditorId] 889978139 [Version] 1048832 [Id] WindowsEditor(7,UOL-2DY3FY3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 1108.94 ms, found 11 plugins.
-Preloading 3 native plugins for Editor in 6.14 ms.
+Refreshing native plugins compatible for Editor in 223.08 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 22.46 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/sc20dmt/UnityProjects/daisymayt/UnityDissertation/Assets
@@ -66,11 +66,12 @@ Direct3D:
     VRAM:     16064 MB
     Driver:   31.0.15.2852
 Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -79,48 +80,48 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.789482 seconds.
-- Loaded All Assemblies, in 10.251 seconds
+Registered in 0.102197 seconds.
+- Loaded All Assemblies, in  2.006 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for AppleTV target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1268 ms
+Android Extension - Scanning For ADB Devices 4039 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.054 seconds
-Domain Reload Profiling: 12301ms
-	BeginReloadAssembly (6844ms)
+- Finished resetting the current domain, in  6.382 seconds
+Domain Reload Profiling: 8377ms
+	BeginReloadAssembly (574ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (480ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (864ms)
-	LoadAllAssembliesAndSetupDomain (2048ms)
-		LoadAssemblies (6843ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (156ms)
+	RebuildNativeTypeToScriptingClass (54ms)
+	initialDomainReloadingComplete (356ms)
+	LoadAllAssembliesAndSetupDomain (853ms)
+		LoadAssemblies (563ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2032ms)
-			TypeCache.Refresh (2031ms)
-				TypeCache.ScanAssembly (1638ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (2054ms)
+		AnalyzeDomain (798ms)
+			TypeCache.Refresh (794ms)
+				TypeCache.ScanAssembly (743ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (6384ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1988ms)
+		SetupLoadedEditorAssemblies (6070ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1827ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (5098ms)
+			SetLoadedEditorAssemblies (24ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (102ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			BeforeProcessingInitializeOnLoad (21ms)
+			ProcessInitializeOnLoadAttributes (614ms)
+			ProcessInitializeOnLoadMethodAttributes (313ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -131,8 +132,8 @@ Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\sc20dmt\UnityProjects\daisymayt\UnityDissertation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\sc20dmt\UnityProjects\daisymayt\UnityDissertation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in 26.714 seconds
-Refreshing native plugins compatible for Editor in 50.63 ms, found 11 plugins.
+- Loaded All Assemblies, in  8.139 seconds
+Refreshing native plugins compatible for Editor in 64.79 ms, found 11 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for AppleTV target not found
@@ -171,50 +172,49 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.962 seconds
-Domain Reload Profiling: 27663ms
-	BeginReloadAssembly (6805ms)
+- Finished resetting the current domain, in  2.519 seconds
+Domain Reload Profiling: 10580ms
+	BeginReloadAssembly (931ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (42ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (470ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (167ms)
-	LoadAllAssembliesAndSetupDomain (19250ms)
-		LoadAssemblies (24788ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (109ms)
+	RebuildCommonClasses (265ms)
+	RebuildNativeTypeToScriptingClass (80ms)
+	initialDomainReloadingComplete (380ms)
+	LoadAllAssembliesAndSetupDomain (6403ms)
+		LoadAssemblies (4209ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1125ms)
-			TypeCache.Refresh (1067ms)
-				TypeCache.ScanAssembly (986ms)
-			ScanForSourceGeneratedMonoScriptInfo (41ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (963ms)
+		AnalyzeDomain (2546ms)
+			TypeCache.Refresh (2343ms)
+				TypeCache.ScanAssembly (2269ms)
+			ScanForSourceGeneratedMonoScriptInfo (131ms)
+			ResolveRequiredComponents (73ms)
+	FinalizeReload (2521ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (733ms)
+		SetupLoadedEditorAssemblies (1788ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (54ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (188ms)
+			SetLoadedEditorAssemblies (16ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (412ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (55ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (341ms)
+			ProcessInitializeOnLoadAttributes (1006ms)
+			ProcessInitializeOnLoadMethodAttributes (210ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+		AwakeInstancesAfterBackupRestoration (36ms)
 Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
-Refreshing native plugins compatible for Editor in 79.58 ms, found 11 plugins.
-Preloading 3 native plugins for Editor in 1.23 ms.
-Unloading 6728 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 140 unused Assets / (2.0 MB). Loaded Objects now: 7132.
-Memory consumption went from 264.3 MB to 262.4 MB.
-Total: 7.038400 ms (FindLiveObjects: 0.499900 ms CreateObjectMapping: 0.363200 ms MarkObjects: 4.923800 ms  DeleteObjects: 1.248900 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.32 seconds
+Refreshing native plugins compatible for Editor in 49.14 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 0.72 ms.
+Unloading 6734 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 107 unused Assets / (369.9 KB). Loaded Objects now: 7167.
+Memory consumption went from 268.3 MB to 268.0 MB.
+Total: 9.436800 ms (FindLiveObjects: 0.727500 ms CreateObjectMapping: 0.408200 ms MarkObjects: 7.826600 ms  DeleteObjects: 0.472000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -231,42 +231,34 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 967.131931 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/Materials/smartPhoneLockedMat.mat
-  artifactKey: Guid(575949a3f4e06eb4daff86d6afac426a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/Materials/smartPhoneLockedMat.mat using Guid(575949a3f4e06eb4daff86d6afac426a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f64353046b6cd3eb420ffc95441403') in 0.010283 seconds
+  Time since last request: 632.810588 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Wall_SD_01.prefab
+  artifactKey: Guid(36510e737e626954986f2c5112be9091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Wall_SD_01.prefab using Guid(36510e737e626954986f2c5112be9091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46afb0e8c047230a63efc2774197748') in 0.037838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Adler Dark Wood.mat
+  artifactKey: Guid(2149baccf21e31043a0e66c87a72bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Adler Dark Wood.mat using Guid(2149baccf21e31043a0e66c87a72bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4535beb8467a39265b6385bc9ffc649a') in 0.005947 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/Materials/phoneMat.mat
-  artifactKey: Guid(8f0cca4930ee68c43a7dfe7bd6a4019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/Materials/phoneMat.mat using Guid(8f0cca4930ee68c43a7dfe7bd6a4019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcb45a33d20b8691312c84c0b019677') in 0.001889 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Bathroom_apt_02.fbx
+  artifactKey: Guid(e9aeceee86b8ae7408c09bcee860a520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Bathroom_apt_02.fbx using Guid(e9aeceee86b8ae7408c09bcee860a520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6476d4c238d0b55d4d876849aca22e4e') in 0.044678 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 26
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/Materials/waterCoolerMat.mat
-  artifactKey: Guid(8b8b05d5e47f4af4082999cc74ab0bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/Materials/waterCoolerMat.mat using Guid(8b8b05d5e47f4af4082999cc74ab0bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fdb2abcd39d85b13c549a7537b9d8d') in 0.001649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/Materials/chairBack1Mat.mat
-  artifactKey: Guid(56d9309cc2dab92418d94e9ab68bc942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/Materials/chairBack1Mat.mat using Guid(56d9309cc2dab92418d94e9ab68bc942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386aa03609ea4639a1cf107fc82b2035') in 0.001514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/Materials/desk2Mat.mat
-  artifactKey: Guid(08d31c7f73b6ec842a4dc03facfbc528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/Materials/desk2Mat.mat using Guid(08d31c7f73b6ec842a4dc03facfbc528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af786b1c331c83deb7c7ba510a8a5491') in 0.001514 seconds
+  Time since last request: 0.000450 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Int_Apt_MarbleWall_01.mat
+  artifactKey: Guid(14caf24636c53854ea2f3f8ca2dd0fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Int_Apt_MarbleWall_01.mat using Guid(14caf24636c53854ea2f3f8ca2dd0fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5d3b3e79317083ba5dfc8fea147975') in 0.004801 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

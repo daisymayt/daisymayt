@@ -15,7 +15,7 @@ C:/Users/sc20dmt/UnityProjects/daisymayt/UnityDissertation
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-50027
+50318
 Successfully changed project path to: C:/Users/sc20dmt/UnityProjects/daisymayt/UnityDissertation
 C:/Users/sc20dmt/UnityProjects/daisymayt/UnityDissertation
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/sc20dmt/UnityProjects/daisymayt/UnityDissertation
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20056] Host "[IP] 192.168.43.56 [Port] 0 [Flags] 2 [Guid] 625424101 [EditorId] 625424101 [Version] 1048832 [Id] WindowsEditor(7,UOL-2DY3FY3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27288] Host "[IP] 192.168.43.56 [Port] 0 [Flags] 2 [Guid] 3862480517 [EditorId] 3862480517 [Version] 1048832 [Id] WindowsEditor(7,UOL-2DY3FY3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20056] Host "[IP] 192.168.43.56 [Port] 0 [Flags] 2 [Guid] 625424101 [EditorId] 625424101 [Version] 1048832 [Id] WindowsEditor(7,UOL-2DY3FY3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27288] Host "[IP] 192.168.43.56 [Port] 0 [Flags] 2 [Guid] 3862480517 [EditorId] 3862480517 [Version] 1048832 [Id] WindowsEditor(7,UOL-2DY3FY3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 4731.39 ms, found 11 plugins.
-Preloading 3 native plugins for Editor in 5.08 ms.
+Refreshing native plugins compatible for Editor in 1842.94 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 2.47 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/sc20dmt/UnityProjects/daisymayt/UnityDissertation/Assets
@@ -66,11 +66,12 @@ Direct3D:
     VRAM:     16064 MB
     Driver:   31.0.15.2852
 Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -79,48 +80,48 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.025018 seconds.
-- Loaded All Assemblies, in  1.710 seconds
+Registered in 0.512698 seconds.
+- Loaded All Assemblies, in  6.356 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for AppleTV target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 987 ms
+Android Extension - Scanning For ADB Devices 605 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.355 seconds
-Domain Reload Profiling: 3062ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  1.101 seconds
+Domain Reload Profiling: 7456ms
+	BeginReloadAssembly (3993ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (1475ms)
-		LoadAssemblies (97ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (295ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (547ms)
+	LoadAllAssembliesAndSetupDomain (1513ms)
+		LoadAssemblies (3992ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1465ms)
-			TypeCache.Refresh (1464ms)
-				TypeCache.ScanAssembly (1138ms)
+		AnalyzeDomain (1507ms)
+			TypeCache.Refresh (1507ms)
+				TypeCache.ScanAssembly (1249ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (1355ms)
+	FinalizeReload (1102ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1304ms)
+		SetupLoadedEditorAssemblies (1065ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1187ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (958ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (75ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			ProcessInitializeOnLoadAttributes (65ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -131,8 +132,8 @@ Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\sc20dmt\UnityProjects\daisymayt\UnityDissertation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\sc20dmt\UnityProjects\daisymayt\UnityDissertation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.930 seconds
-Refreshing native plugins compatible for Editor in 15.44 ms, found 11 plugins.
+- Loaded All Assemblies, in 10.369 seconds
+Refreshing native plugins compatible for Editor in 10.88 ms, found 11 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for AppleTV target not found
@@ -171,50 +172,49 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.839 seconds
-Domain Reload Profiling: 1762ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  0.537 seconds
+Domain Reload Profiling: 10900ms
+	BeginReloadAssembly (86ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (704ms)
-		LoadAssemblies (360ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (10223ms)
+		LoadAssemblies (9551ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (392ms)
-			TypeCache.Refresh (343ms)
-				TypeCache.ScanAssembly (325ms)
-			ScanForSourceGeneratedMonoScriptInfo (33ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (839ms)
+		AnalyzeDomain (706ms)
+			TypeCache.Refresh (672ms)
+				TypeCache.ScanAssembly (623ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (537ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (643ms)
+		SetupLoadedEditorAssemblies (402ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (45ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (397ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 83.30 ms, found 11 plugins.
-Preloading 3 native plugins for Editor in 0.19 ms.
-Unloading 6728 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 140 unused Assets / (2.0 MB). Loaded Objects now: 7132.
-Memory consumption went from 264.3 MB to 262.4 MB.
-Total: 7.530500 ms (FindLiveObjects: 0.759600 ms CreateObjectMapping: 0.353800 ms MarkObjects: 5.354900 ms  DeleteObjects: 1.060000 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 9.87 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 0.08 ms.
+Unloading 6734 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 107 unused Assets / (370.8 KB). Loaded Objects now: 7167.
+Memory consumption went from 268.5 MB to 268.2 MB.
+Total: 3.418000 ms (FindLiveObjects: 0.288600 ms CreateObjectMapping: 0.125500 ms MarkObjects: 2.822400 ms  DeleteObjects: 0.180900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -231,34 +231,346 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 967.133620 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/Materials/lampMat.mat
-  artifactKey: Guid(4d179ee620c48ba4a8355e46f230adfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/Materials/lampMat.mat using Guid(4d179ee620c48ba4a8355e46f230adfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0518df2e7731009217ac72c463b54fdf') in 0.009495 seconds
+  Time since last request: 959.211498 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Pillar_1x1.prefab
+  artifactKey: Guid(aa2fa323615b3744ca21435299b7e85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Pillar_1x1.prefab using Guid(aa2fa323615b3744ca21435299b7e85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bcc0346b5bfb7a64c899d4c4d632f1') in 0.010084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Pillar_4x4.prefab
+  artifactKey: Guid(336374783a6a6f9438803704ebba706f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Pillar_4x4.prefab using Guid(336374783a6a6f9438803704ebba706f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b941b82a8519db645b6cc639a333dc6f') in 0.001270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 60.006838 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Doors_01.fbx
+  artifactKey: Guid(cb07ca870cf1d5444b85ea4e3ee49a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Doors_01.fbx using Guid(cb07ca870cf1d5444b85ea4e3ee49a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39c81d2cba20d71ab7877ed41133c50') in 0.004264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 32.220488 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_Concrete_N.png
+  artifactKey: Guid(5ef54bc528dd11344b45f3c8a9aed64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_Concrete_N.png using Guid(5ef54bc528dd11344b45f3c8a9aed64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562965964b16029cecec60b6b53cf96a') in 0.007353 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/Materials/smartPhoneMat.mat
-  artifactKey: Guid(e31acf7af37f9cb4a9c2ed15b1cd423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/Materials/smartPhoneMat.mat using Guid(e31acf7af37f9cb4a9c2ed15b1cd423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d48314b829e1412f09a4ff8d488ce9f') in 0.001708 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_leather_A.png
+  artifactKey: Guid(0c1ee1d71026ae54bbf4ce91fbd6a87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_leather_A.png using Guid(0c1ee1d71026ae54bbf4ce91fbd6a87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2c6eac1bbd43b89711383928318474') in 0.005614 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/Materials/printerMat.mat
-  artifactKey: Guid(b4225431b632ffc4a853ac28e67891b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/Materials/printerMat.mat using Guid(b4225431b632ffc4a853ac28e67891b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791172a7e7d70e10a38839fe645ee3fa') in 0.001749 seconds
+  Time since last request: 0.000011 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_Marble_01_A.png
+  artifactKey: Guid(533e69acad2a4a24fb387ac1f4a2548f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_Marble_01_A.png using Guid(533e69acad2a4a24fb387ac1f4a2548f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea2e622f26de7c90e2b9fbbba849fb1') in 0.002282 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ADI/Voxel Office Props/Models/Materials/fillingCabinetNoDrawsMat.mat
-  artifactKey: Guid(441fc74832b5da141a0b2b81614e671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Models/Materials/fillingCabinetNoDrawsMat.mat using Guid(441fc74832b5da141a0b2b81614e671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb53d7b87316e217f8454e9fb4576a3a') in 0.001670 seconds
+  Time since last request: 0.000011 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_Metal_Brushed_01_N.png
+  artifactKey: Guid(28ff0b5cb9b51034a977bc2116ddfe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_Metal_Brushed_01_N.png using Guid(28ff0b5cb9b51034a977bc2116ddfe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb84d3f2be1ada9610cae9a51cf95c9') in 0.002883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_Plastic_01_N.png
+  artifactKey: Guid(76bd84ba642ddf0468318d675e90dfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_Plastic_01_N.png using Guid(76bd84ba642ddf0468318d675e90dfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5c79978ca7a1e485eeec33c720713b') in 0.003700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006485 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Ext_BA_01.png
+  artifactKey: Guid(557d00f8839f23f4d9300672c1aa5d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Ext_BA_01.png using Guid(557d00f8839f23f4d9300672c1aa5d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4729916fb287a737928abf188e2f4ef8') in 0.021323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 42.327217 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Materials/BA_Concrete_N.mat
+  artifactKey: Guid(35fbc477a3ad720429b95b496f777784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Materials/BA_Concrete_N.mat using Guid(35fbc477a3ad720429b95b496f777784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4d2eeb1503c9b6b55bb062a7e3b19a') in 0.001079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.037836 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Materials/BA_knob and key_A.mat
+  artifactKey: Guid(cc772f9140d0c9548a9cac6523a3cb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Materials/BA_knob and key_A.mat using Guid(cc772f9140d0c9548a9cac6523a3cb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa0ce875832305587f80cddbfd546bb') in 0.000879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.038261 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Materials/BA_Marble_01_A.mat
+  artifactKey: Guid(dc47ebe24fe253341abedf7766b6ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Materials/BA_Marble_01_A.mat using Guid(dc47ebe24fe253341abedf7766b6ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6597c35ec9951b18986338edc1c42ce4') in 0.000811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.039971 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Materials/BA_Wood_01_A.mat
+  artifactKey: Guid(92d9888105215dd4fa651a129559bbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Materials/BA_Wood_01_A.mat using Guid(92d9888105215dd4fa651a129559bbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f760cc0ed90eeb1f75ace5145a6a20') in 0.000807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Materials/BA_Wood_01_N.mat
+  artifactKey: Guid(bb72a7ca3d58f344893392f11959886d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Materials/BA_Wood_01_N.mat using Guid(bb72a7ca3d58f344893392f11959886d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb4b17e0886361542ed8c74c1856654') in 0.000960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Materials/BA_Metal_Brushed_01_N.mat
+  artifactKey: Guid(ec7e2625c81f2904da2625af026c76af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Materials/BA_Metal_Brushed_01_N.mat using Guid(ec7e2625c81f2904da2625af026c76af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3a7b3c1ac917ec5ae685904b6725c8') in 0.001112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Materials/BA_Plastic_01_A.mat
+  artifactKey: Guid(976b933293a6b644fbff101e663dd9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/Materials/BA_Plastic_01_A.mat using Guid(976b933293a6b644fbff101e663dd9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4b6d6ea0099d88e98b09e03a7cf3f8') in 0.001038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 41.920238 seconds.
+  path: Assets/nappin/Office Props Softpack/Materials/(Mat)GradientBeige.mat
+  artifactKey: Guid(eb0f168ce60c9424896bd8c33ac3f2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Office Props Softpack/Materials/(Mat)GradientBeige.mat using Guid(eb0f168ce60c9424896bd8c33ac3f2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69de485025b228989e6e2174042b75a7') in 0.000958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nappin/Office Props Softpack/Materials/(Mat)GradientDarkRed.mat
+  artifactKey: Guid(11ed21415b661da499e94e4e9e5c47f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Office Props Softpack/Materials/(Mat)GradientDarkRed.mat using Guid(11ed21415b661da499e94e4e9e5c47f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c68199226d9dc494b8bfb530843cebf') in 0.008577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/nappin/Office Props Softpack/Materials/(Mat)GradientDarkGrey.mat
+  artifactKey: Guid(eecaa3198cbebd74e8cd79d0f71765cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Office Props Softpack/Materials/(Mat)GradientDarkGrey.mat using Guid(eecaa3198cbebd74e8cd79d0f71765cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0842af55b91ba2a86217685386e0e555') in 0.001223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/nappin/Office Props Softpack/Materials/(Mat)GradientBlue.mat
+  artifactKey: Guid(35261150e5398c0439d6fd7481f62b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Office Props Softpack/Materials/(Mat)GradientBlue.mat using Guid(35261150e5398c0439d6fd7481f62b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa70da2c9bcc5f14a00897012e3721dd') in 0.000915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.296929 seconds.
+  path: Assets/nappin/Office Props Softpack/Materials/(Mat)GradientOrange.mat
+  artifactKey: Guid(fb698345bbbc4d74ba2ca7b2bb59eb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Office Props Softpack/Materials/(Mat)GradientOrange.mat using Guid(fb698345bbbc4d74ba2ca7b2bb59eb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc53e8f06be4665ec78593ed037222ec') in 0.011400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nappin/Office Props Softpack/Materials/(Mat)MetallicBlack.mat
+  artifactKey: Guid(31e87d42f3ffa2546b1f527e7a0a4b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Office Props Softpack/Materials/(Mat)MetallicBlack.mat using Guid(31e87d42f3ffa2546b1f527e7a0a4b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e574e744fff97431360af8d111ded0cb') in 0.000806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nappin/Office Props Softpack/Materials/(Mat)Skybox.mat
+  artifactKey: Guid(f5b880b2bccf7364cbc645f81894becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/Office Props Softpack/Materials/(Mat)Skybox.mat using Guid(f5b880b2bccf7364cbc645f81894becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd735b78c3b3beee9516ed10a3a007c03') in 0.000734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.532541 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Props_01.fbx
+  artifactKey: Guid(34e386a75bb8feb4aa0f48b512cbb268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Props_01.fbx using Guid(34e386a75bb8feb4aa0f48b512cbb268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80edca8a1f75cf347381ec00fabca5a') in 0.016921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 413
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_RR.fbx
+  artifactKey: Guid(37d1da0067b60bd4282c0eaee639654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_RR.fbx using Guid(37d1da0067b60bd4282c0eaee639654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87426fd1ffa9868c26d183e7229c2045') in 0.010422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 243
+========================================================================
+Received Import Request.
+  Time since last request: 0.273280 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Bathroom_Corner_Tiles.fbx
+  artifactKey: Guid(d265ac661f1c8d64386d043a4b4b8f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Bathroom_Corner_Tiles.fbx using Guid(d265ac661f1c8d64386d043a4b4b8f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d92f1464b184d99b79ae0deafde2861') in 0.002239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ADI/Voxel Office Props/Materials/modelMaterial.mat
+  artifactKey: Guid(1c939f7cfb400a3489a759b36370b3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADI/Voxel Office Props/Materials/modelMaterial.mat using Guid(1c939f7cfb400a3489a759b36370b3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32483cb8c3d79b7c1edbdf1d2bef60d') in 0.001086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.785283 seconds.
+  path: Assets/ADI/Voxel Office Props/Materials/fill10.png
+  artifactKey: Guid(a0865b3e1d1230548a92c01b2d79cc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADI/Voxel Office Props/Materials/fill10.png using Guid(a0865b3e1d1230548a92c01b2d79cc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8275dcf887e459672472c56924145f6d') in 0.002273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ADI/Voxel Office Props/Materials/glass.mat
+  artifactKey: Guid(757ca598e3c89ac479db1a7c24999c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADI/Voxel Office Props/Materials/glass.mat using Guid(757ca598e3c89ac479db1a7c24999c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bc4c91dff79149331ee01a68da39f5') in 0.000994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ADI/Voxel Office Props/Materials/modelTexture.png
+  artifactKey: Guid(23ecce56286a894419eebd05b822b510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADI/Voxel Office Props/Materials/modelTexture.png using Guid(23ecce56286a894419eebd05b822b510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f102b7f33556bcd641ce2e5d144170') in 0.001116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 43.789608 seconds.
+  path: Assets/ADI/Voxel Office Props/Models/Materials/chairBaseMat.mat
+  artifactKey: Guid(3df406c59a01f734f81beb6c0fa3e765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADI/Voxel Office Props/Models/Materials/chairBaseMat.mat using Guid(3df406c59a01f734f81beb6c0fa3e765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee58a38f285033a2a4406b7e0b9135d') in 0.001069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.039126 seconds.
+  path: Assets/ADI/Voxel Office Props/Models/Materials/desk1Mat.mat
+  artifactKey: Guid(313ef8fc8eeb9ce469d7a23c525bfcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADI/Voxel Office Props/Models/Materials/desk1Mat.mat using Guid(313ef8fc8eeb9ce469d7a23c525bfcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98602e88e44dd82bea3696234a332a2') in 0.001309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/ADI/Voxel Office Props/Models/Materials/desk2Mat.mat
+  artifactKey: Guid(08d31c7f73b6ec842a4dc03facfbc528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADI/Voxel Office Props/Models/Materials/desk2Mat.mat using Guid(08d31c7f73b6ec842a4dc03facfbc528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309ae91e8feed83da0ef0fe71142996e') in 0.000935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.035225 seconds.
+  path: Assets/ADI/Voxel Office Props/Models/Materials/keyboardMat.mat
+  artifactKey: Guid(533d958b9348ae447a88ac9346b57b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADI/Voxel Office Props/Models/Materials/keyboardMat.mat using Guid(533d958b9348ae447a88ac9346b57b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8437634608e7e2f9bc0b624c0c556a4') in 0.001055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ADI/Voxel Office Props/Models/Materials/laptopMat.mat
+  artifactKey: Guid(3de5e8cb9e06b0840836940cd9b622ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADI/Voxel Office Props/Models/Materials/laptopMat.mat using Guid(3de5e8cb9e06b0840836940cd9b622ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b995a9db75f7485982e6acb22855c1c3') in 0.001367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.028372 seconds.
+  path: Assets/ADI/Voxel Office Props/Models/Materials/projectorMat.mat
+  artifactKey: Guid(64ed7d7c2fce4c944a701ecdab867bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADI/Voxel Office Props/Models/Materials/projectorMat.mat using Guid(64ed7d7c2fce4c944a701ecdab867bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099e764ee1c80a0c0cd00d6f861aa3c8') in 0.001001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ADI/Voxel Office Props/Models/Materials/recycleBinMat.mat
+  artifactKey: Guid(acfd7203021b1fb408ef9dc1380e62fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADI/Voxel Office Props/Models/Materials/recycleBinMat.mat using Guid(acfd7203021b1fb408ef9dc1380e62fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09259bb351709823d7193b5c34a294bf') in 0.001215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.425638 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brushed Chrome.mat
+  artifactKey: Guid(403f7691aae4323499829c9fc28c7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brushed Chrome.mat using Guid(403f7691aae4323499829c9fc28c7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244947fc7bcc9b68da037805f670215d') in 0.001786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Building Floor Tile.mat
+  artifactKey: Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Building Floor Tile.mat using Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74de283726968626b72c38e73ae089c0') in 0.001291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.405796 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_01.mat
+  artifactKey: Guid(88b88f875cf0af442996954ba27bdf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_01.mat using Guid(88b88f875cf0af442996954ba27bdf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1525a38c56200af639e46faa7f7e5af5') in 0.000933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.029529 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_04.mat
+  artifactKey: Guid(65d72af2f614466478d9d8d8d7593b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_04.mat using Guid(65d72af2f614466478d9d8d8d7593b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459bb4922ba0ee894018859859b29ee2') in 0.003988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.835699 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Plastic_01.mat
+  artifactKey: Guid(255352a35d6d72c4e8ee50bc826f7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Plastic_01.mat using Guid(255352a35d6d72c4e8ee50bc826f7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8787bd58d870fc51c399bc38cb7f1db') in 0.001201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.431152 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_SoapLabel.mat
+  artifactKey: Guid(66fe060a1655b474b9ce1641bbf19f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_SoapLabel.mat using Guid(66fe060a1655b474b9ce1641bbf19f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e153161e65e07ed5aa32735c47a79199') in 0.000855 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
