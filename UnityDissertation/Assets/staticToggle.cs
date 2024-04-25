@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Policy;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -28,6 +29,7 @@ public class staticToggle : MonoBehaviour
             if (currentColor == Color.gray)
             {
                 GetComponent<Button>().image.color = Color.white;
+                Application.OpenURL("https://www.google.com");
             }
             else
             {
