@@ -9,11 +9,11 @@ C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker1
+AssetImportWorker11
 -projectPath
 C:/Users/sc20dmt/Unity/daisymayt/UnityDissertation
 -logFile
-Logs/AssetImportWorker1.log
+Logs/AssetImportWorker11.log
 -srvPort
 60036
 Successfully changed project path to: C:/Users/sc20dmt/Unity/daisymayt/UnityDissertation
@@ -49,12 +49,12 @@ C:/Users/sc20dmt/Unity/daisymayt/UnityDissertation
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21468] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 987278675 [EditorId] 987278675 [Version] 1048832 [Id] WindowsEditor(7,UOL-7BKJBY3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22940] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 3256929949 [EditorId] 3256929949 [Version] 1048832 [Id] WindowsEditor(7,UOL-7BKJBY3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21468] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 987278675 [EditorId] 987278675 [Version] 1048832 [Id] WindowsEditor(7,UOL-7BKJBY3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22940] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 3256929949 [EditorId] 3256929949 [Version] 1048832 [Id] WindowsEditor(7,UOL-7BKJBY3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 18494.06 ms, found 11 plugins.
-Preloading 3 native plugins for Editor in 54.82 ms.
+Refreshing native plugins compatible for Editor in 267.55 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 31.03 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/sc20dmt/Unity/daisymayt/UnityDissertation/Assets
@@ -67,3 +67,9 @@ Direct3D:
     Driver:   31.0.15.2852
 Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
