@@ -6,14 +6,14 @@ using UnityEngine.UI;
 
 public class openBrowser : MonoBehaviour
 {
-    public Button toggleStaticButton;
+    public Button openBrowserButton;
     private bool doubleClick = false;
 
     void Start()
     {
         Debug.Log(Microphone.devices.Length);
         Debug.Log(Application.internetReachability.ToString());
-        Button btn = toggleStaticButton.GetComponent<Button>();
+        Button btn = openBrowserButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
     }
 
