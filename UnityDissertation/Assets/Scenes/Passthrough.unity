@@ -266,7 +266,7 @@ PrefabInstance:
     - target: {fileID: 7692636920190884178, guid: c02a999a44edfa048a0420775c83cf3d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8440938
+      value: 1.026
       objectReference: {fileID: 0}
     - target: {fileID: 7692636920190884178, guid: c02a999a44edfa048a0420775c83cf3d,
         type: 3}
@@ -5626,7 +5626,7 @@ PrefabInstance:
     - target: {fileID: 2068398726653781473, guid: e0a309163f5d1ef4e81367371dba0804,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8440933
+      value: 1.0259995
       objectReference: {fileID: 0}
     - target: {fileID: 2068398726653781473, guid: e0a309163f5d1ef4e81367371dba0804,
         type: 3}
@@ -16956,7 +16956,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864889517}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: baed3e011583e1844a6e85b1cd0657f2, type: 3}
   m_Name: 
@@ -17407,7 +17407,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882332887}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.36, y: 0, z: 2.297}
+  m_LocalPosition: {x: -2.36, y: -1.5, z: 2.297}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17909,7 +17909,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1929607422}
   m_LocalRotation: {x: -0, y: 0.99993706, z: -0, w: -0.011226773}
-  m_LocalPosition: {x: -2.133, y: -0.33, z: 2.743}
+  m_LocalPosition: {x: -2.133, y: -0.25, z: 2.743}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -18165,7 +18165,7 @@ PrefabInstance:
     - target: {fileID: 3643333674795363868, guid: 067fb86e8e4f5744a82f28c508805f86,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.10450971
+      value: 0.07739651
       objectReference: {fileID: 0}
     - target: {fileID: 3643333674795363868, guid: 067fb86e8e4f5744a82f28c508805f86,
         type: 3}
