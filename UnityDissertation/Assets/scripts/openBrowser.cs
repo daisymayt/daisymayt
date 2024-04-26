@@ -11,6 +11,8 @@ public class openBrowser : MonoBehaviour
 
     void Start()
     {
+        Debug.Log(Microphone.devices.Length);
+        Debug.Log(Application.internetReachability.ToString());
         Button btn = toggleStaticButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
     }
@@ -21,16 +23,7 @@ public class openBrowser : MonoBehaviour
         {
             doubleClick = false;
 
-            var currentColor = GetComponent<Button>().image.color;
-            if (currentColor == Color.gray)
-            {
-                GetComponent<Button>().image.color = Color.white;
-                Application.OpenURL("https://www.google.com");
-            }
-            else
-            {
-                GetComponent<Button>().image.color = Color.gray;
-            }
+            Application.OpenURL("https://www.google.com");
         }
         else
         {
