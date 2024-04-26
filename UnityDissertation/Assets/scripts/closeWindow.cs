@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class closeWindow : MonoBehaviour
 {
     public Button closeWindowButton;
-    public GameObject window;
+    public GameObject mesh, overlay, surface;
+
     private bool doubleClick = false;
 
     void Start()
@@ -20,7 +21,10 @@ public class closeWindow : MonoBehaviour
     {
         if (doubleClick)
         {
-            window.SetActive(!window.activeSelf);
+            mesh.SetActive(!mesh.activeSelf);
+            overlay.SetActive(!overlay.activeSelf);
+            surface.SetActive(!surface.activeSelf);
+
             doubleClick = false;
 
             var currentColor = GetComponent<Button>().image.color;
