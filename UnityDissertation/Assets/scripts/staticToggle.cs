@@ -8,7 +8,6 @@ public class staticToggle : MonoBehaviour
 {
     public Button toggleStaticButton;
     public GameObject grab;
-    public GameObject distanceGrab;
     private bool doubleClick = false;
 
     void Start()
@@ -21,7 +20,6 @@ public class staticToggle : MonoBehaviour
     {
         if (doubleClick)
         {
-            distanceGrab.SetActive(!distanceGrab.activeSelf);
             grab.SetActive(!grab.activeSelf);
             doubleClick = false;
 
