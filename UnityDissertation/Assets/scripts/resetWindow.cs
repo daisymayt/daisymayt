@@ -4,16 +4,17 @@ using System.Security.Policy;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class openBrowser : MonoBehaviour
+public class resetWindow : MonoBehaviour
 {
-    public Button openBrowserButton;
+    public Button resetWindowButton;
+    public GameObject quad;
     private bool doubleClick = false;
 
     void Start()
     {
         Debug.Log(Microphone.devices.Length);
         Debug.Log(Application.internetReachability.ToString());
-        Button btn = openBrowserButton.GetComponent<Button>();
+        Button btn = resetWindowButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
     }
 
@@ -23,7 +24,8 @@ public class openBrowser : MonoBehaviour
         {
             doubleClick = false;
 
-            Application.OpenURL("https://www.google.com");
+            quad.transform.position = new Vector3(-2.5F, -0.4F, 3);
+            quad.transform.rotation = new Quaternion(0, 180, 30, 0);
         }
         else
         {

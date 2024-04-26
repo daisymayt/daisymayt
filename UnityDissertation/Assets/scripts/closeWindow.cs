@@ -4,15 +4,16 @@ using System.Security.Policy;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class staticToggle : MonoBehaviour
+public class closeWindow : MonoBehaviour
 {
-    public Button toggleStaticButton;
-    public GameObject grab;
+    public Button closeWindowButton;
+    public GameObject mesh, overlay, surface;
+
     private bool doubleClick = false;
 
     void Start()
     {
-        Button btn = toggleStaticButton.GetComponent<Button>();
+        Button btn = closeWindowButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
     }
 
@@ -20,7 +21,10 @@ public class staticToggle : MonoBehaviour
     {
         if (doubleClick)
         {
-            grab.SetActive(!grab.activeSelf);
+            mesh.SetActive(!mesh.activeSelf);
+            overlay.SetActive(!overlay.activeSelf);
+            surface.SetActive(!surface.activeSelf);
+
             doubleClick = false;
 
             var currentColor = GetComponent<Button>().image.color;
